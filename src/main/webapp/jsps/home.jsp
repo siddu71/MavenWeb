@@ -37,7 +37,7 @@
 </head>
 </head>
 <body>
-<h1 align="center" class="title"> This is a simple web application hosted on AWS Instance</h1>
+<h1 align="center" class="title"> This is a simple web application hosted on AWS Instance EC2</h1>
 <div class="card">
 	<h3>
 		Server Side IP Address
