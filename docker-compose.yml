@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   springboot:
-    image: docker push siddarth71/docker-sid:tagname
+    image: siddarth71/docker-sid:tagname
     restart: always
     ports:
     - 9090:8080
