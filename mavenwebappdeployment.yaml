@@ -34,7 +34,7 @@ kind: Service
 metadata:
   name: mavenwebappsvc
 spec:
-  type: Nodeport
+  type: NodePort
   selector:
     app: mavenwebapp 
   ports:
