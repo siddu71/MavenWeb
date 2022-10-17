@@ -34,9 +34,10 @@ kind: Service
 metadata:
   name: mavenwebappsvc
 spec:
+ type: Nodeport
   selector:
-    app: mavenwebapp
-  type: NodePort
+    app: mavenwebapp 
   ports:
   - port: 80
     targetPort: 8080
+    nodePort: 30100
